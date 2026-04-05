@@ -21,7 +21,6 @@ import ThreePLPage from './Pages/Threel'
 import ReachUsPage from './Pages/ReachUs'
 import IndustriesPage from './Pages/Industries'
 import LegalPage from './Pages/Legal'
-import { HelmetProvider } from 'react-helmet-async'
 
 
 const App = () => {
@@ -121,9 +120,8 @@ const App = () => {
   return (
     
     <div>
-      <HelmetProvider>
       <RouterProvider router={router}></RouterProvider>
-      </HelmetProvider>
+
     </div>
   )
 }
