@@ -20,7 +20,6 @@ import {
   Bell,
   RouteIcon
 } from "lucide-react";
-import { Route } from "react-router-dom";
 
 const CapacityPlannerPage = () => {
   // -----------------------------------------------------
